@@ -1,5 +1,5 @@
 body {
-  background: rgb(30, 30, 55);
+  background: green;
   color: rgb(250, 250, 220);
   font-family: "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
@@ -19,4 +19,8 @@ h1:before {
   background-image: url(logo.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+ol,
+ul {
+  padding-left: 3em;
 }
